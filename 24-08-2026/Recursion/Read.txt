@@ -1,0 +1,9 @@
+Recursion :
+when a function calls itself
+until a specified condition is met (which is Based condition)
+
+
+Recursion
+Base condition
+Stack overflow / Runtime stack space
+Recursion Tree
