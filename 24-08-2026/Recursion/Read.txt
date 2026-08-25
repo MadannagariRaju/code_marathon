@@ -3,7 +3,20 @@ when a function calls itself
 until a specified condition is met (which is Based condition)
 
 
+Recursion: "Keep walking until you reach the end."
+Backtracking: "Keep walking. If you hit a dead end, go back to the last intersection and try a different path."
+
+
 Recursion
 Base condition
 Stack overflow / Runtime stack space
 Recursion Tree
+
+Recursion : 
+parameterised and functional Recursion
+
+Parameterized recursion
+→ Pass the answer through parameters
+
+Functional recursion
+→ Return the answer from recursive calls
