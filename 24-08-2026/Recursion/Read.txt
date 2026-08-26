@@ -1,6 +1,6 @@
 Recursion :
 when a function calls itself
-until a specified condition is met (which is Based condition)
+until a specified condition is met (which is Base condition)
 
 
 Recursion: "Keep walking until you reach the end."
