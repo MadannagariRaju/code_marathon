@@ -1,0 +1,14 @@
+Hashing : 
+
+int Array has some fixed size it can go till max in range of int size
+
+character Array is simple, atmost we have 256 characters right , so Array size can be max 256
+
+Hashing :  Division rule
+let say for eg : 
+I have int array {12,45,123,456} but you need to declare the hash array size as 10 then how
+can you do ???
+Here comes the technique called Division rule
+
+for more info checkout the striver video about Hashing
+and also we have another term called collision  ---> not that much important in coding just to know !!!
