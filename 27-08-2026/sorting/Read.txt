@@ -7,3 +7,23 @@ Bubble sort
 Insertion sort
 
 
+1. Selection sort :  Select the minimum and swap
+
+eg : 
+0   1   2   3   4   5 --> index
+13, 46, 24, 52, 20, 9 --> array
+Select the minimum in arrray from i=0 to n that is 9 and swap with a[i] where i = 0,1,2,3,4,5
+swap(9,13) -> array becomes 
+9, 46, 24, 52, 20, 13
+now find minimum from i = 1 to n that is 13
+swap(46,13) -> array becomes
+9, 13, 24, 52, 20, 46
+now find the minimum from i = 2 to n that is 20
+swap(24,20) -> array becomes
+9, 13, 20, 52, 24, 46
+now find the minimum from i = 3 to n that is 24
+swap(52,24)-> array becomes
+9, 13, 20, 24, 52, 46
+now find the minimum from i = 4 to n that is 46
+swap(52,46) -> array becomes
+9, 13, 20, 24, 46, 52
