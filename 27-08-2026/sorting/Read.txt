@@ -27,3 +27,22 @@ swap(52,24)-> array becomes
 now find the minimum from i = 4 to n that is 46
 swap(52,46) -> array becomes
 9, 13, 20, 24, 46, 52
+
+
+2. Bubble sort : push the maximum number to the last by adjacent swaps
+
+13, 46, 24, 52, 20, 9 
+check which is greater (13, 46) -> 46 , array becomes as it is
+13, 46, 24, 52, 20, 9 
+check which is greater (46,24) -> 36, array becomes
+13, 24, 46, 52, 20, 9
+check which is greater (46, 52) -> 52 , array becomes as it is
+13, 24, 46, 52, 20, 9
+check which is greater (52, 20) -> 52 , array becomes 
+13, 24, 46, 20, 52, 9
+check which is greater (52, 9) -> 52 , array becomes
+13, 24, 46, 20, 9, 52
+
+Power of Observation :
+here you can see in one iteration maximum number it pushed to last by adjacent swaps
+and we repeat the same till 13 to 9 as 52 is already sorted and similarly we repeat the same process
