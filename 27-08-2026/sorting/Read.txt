@@ -46,3 +46,9 @@ check which is greater (52, 9) -> 52 , array becomes
 Power of Observation :
 here you can see in one iteration maximum number it pushed to last by adjacent swaps
 and we repeat the same till 13 to 9 as 52 is already sorted and similarly we repeat the same process
+
+
+3. Insertion sort : Takes an element and place it in its correct order
+
+we will go linear in an array , like we take an element check with previous index's elements if greater swap so, the
+smallest number will move to first index right !!!
