@@ -1,0 +1,7 @@
+1. Merge Sort : 
+Optimized sorting algorithm
+Time complexity : O(nlogn)
+space complexity : O(n)
+
+Divide and Merge
+for more info checkout striver video
