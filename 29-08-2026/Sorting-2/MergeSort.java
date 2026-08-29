@@ -29,8 +29,6 @@ public class MergeSort{
         int j = 0;
 
         while(left <= mid && right <= high) {
-            System.out.println("arr[left] : " + arr[left]);
-            System.out.println("arr[right] : " + arr[right]);
             if(arr[left] <= arr[right]) {
                 temp[j] = arr[left];
                 left ++;
@@ -42,10 +40,8 @@ public class MergeSort{
             j++;
         }
 
-        // System.out.println(Arrays.toString(temp));
         // left over elements in first half
         while(left <= mid) {
-            // System.out.println("left :" + left + "mid : " + mid);
             temp[j] = arr[left];
             left++;
             j++;
@@ -53,7 +49,6 @@ public class MergeSort{
 
         // left over elements in second half
         while(right <= high ) {
-            // System.out.println("right : " + right + "high : " + high);
             temp[j] = arr[right];
             right++;
             j++;
