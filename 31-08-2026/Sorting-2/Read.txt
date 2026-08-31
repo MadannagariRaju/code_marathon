@@ -1,0 +1,40 @@
+Quick Sort : 
+  one of the sorting algorithm
+  Time complexity : O(nlogn)
+  Space complexity : O(1) -> it uses Recursion stack space
+
+  Quick sort is better then merge sort
+
+  steps to understand this algorithm
+
+  1. pick a pivot and place it in its correct place in the sorted array
+        here pivot can be :
+        1. first element in the array
+        2. last element in the array
+        3. median element in the array
+        4. random element in the array
+  2.smaller elements on the left of the pivot and larger elements on the right of the pivot
+
+
+let's understand this alogorithm with an example: 
+
+a = [4,6,2,5,7,9,1,3]
+pivot = 4
+i = 0
+j = a.length-1
+
+if a[i] <= pivot -> i++
+if a[j] >= pivot -> j--;
+
+if(i<j) swap(a[i],a[j])
+
+at some point j croses i then
+we swap pivot element with i 
+
+then we do same steps recursively until we found the one element
+
+
+the intuition of this alogorithm is :
+take a pivot element place it in correct order and 
+left side of the pivot elements should be smaller 
+right side of the pivot elements shoudl be larger
