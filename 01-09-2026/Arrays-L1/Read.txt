@@ -1,0 +1,8 @@
+Largest element in an array 
+ this is straight forward problem where we can compare elements to find the Largest
+ or you can simply sort the array return the last index element
+
+second largest element in an array
+    we can do 
+    first find the largest element then after find the sLargest element which should be not equal to largest
+    in another way, assume largest as first element , slargest as -1 , if an element in an array is greater then largest then second largest will be largest 
