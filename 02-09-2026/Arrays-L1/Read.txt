@@ -1,3 +1,18 @@
 Check if the array is sorted or not : 
     let say eg : {1,2,1,3,4}
     a[i] > a[i+1] this condition should satified other wise array is not sorted
+
+Remove Duplicates in-place From Sorted Array (return number of unique elements in an array)
+    1. first approach is use HashSet
+        and put the hashset elements in to the array 
+    2. By two pointer approach
+    let say for example : 
+              0  1  2  3  4  5  6
+     arr[] = [1, 1, 2, 2, 2, 3, 3]
+
+     i at 0th positon
+     j at 1th position
+
+     i will check if arr[i] != arr[j] if true then arr[i+1] = arr[j] then i++;
+     until j reaches to the lenght of an array
+     return i+1 (return number of unique elements)
