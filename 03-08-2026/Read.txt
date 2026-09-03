@@ -1,0 +1,5 @@
+Left Rotate an array by one place 
+eg : arr[] = [1,2,3,4,5]
+after left rotate an array by one place we will get array like [2,3,4,5,1]
+that means , store one index element in one temp variable left shift the elements by 
+a[i-1] = a[i] and then store temp in last index a[n-1] = temp 
