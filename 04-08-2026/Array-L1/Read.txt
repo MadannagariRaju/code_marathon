@@ -17,3 +17,21 @@ result array will be res[] = {4,5,6,7,1,2,3}
 reverse(0,d-1)  reverse first d elements
 reverse(d,n)   reverse after d elements
 reverse(0,n)   reverse whole array
+
+
+Right Rotate Array by One place
+
+for eg : arr[] = {1, 2, 3, 4, 5, 6, 7}
+
+store 7 in temp
+shift the elements to Right
+
+{7, 1, 2, 3, 4, 5, 6}  right the index's on the paper and try to understand how can we solve, it's easy !!!!
+
+
+Right Rotate Array by D places
+
+just like we did earlier problems just try to think and solve 
+
+
+magic : for right rotate array by d places --> you can also apply the left rotate logic by simply taking d as n-d;
