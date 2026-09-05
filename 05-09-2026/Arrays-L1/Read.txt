@@ -7,3 +7,7 @@ second approach : use Two pointer approach
                     and next element will be i which is j+1
 
                     second swap(i,j) if a[i] == 0
+
+
+Linear Search
+Iterate the array and find the elements and return the index
