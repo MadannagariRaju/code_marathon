@@ -1,0 +1,9 @@
+Move Zeros to the end of array
+
+first approach : use temp array to store the non-zero elements and store the zero elements at the end of the array
+
+second approach : use Two pointer approach
+                    first find the zero element point to j
+                    and next element will be i which is j+1
+
+                    second swap(i,j) if a[i] == 0
