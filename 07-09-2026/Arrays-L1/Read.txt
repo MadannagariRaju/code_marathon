@@ -1,0 +1,25 @@
+Intersection of two sorted Arrays : 
+for eg : 
+arr1[] = {1,2,2,3,3,4,5,6}
+arr2[] = {2,3,3,5,6,6,7}
+
+result[] = {2,3,3,5,6}
+
+first approach is : 
+you iterate one array over another array to check the element in array1 to presend its
+corresponding element in array2
+
+second approach is :
+two pointer approach  as it is sorted arrays
+if(arr1[i] < arr2[j]) i++;
+else if(arr2[j] < arr1[i]) j++;
+else al.add(arr1[i]);
+
+
+Find the number that appears once in an array
+
+arr1[]={1,1,2,3,3,4,4}
+ans : 2
+
+first approach is by doing in Hashing approach
+second approach is by doing in Map approach
