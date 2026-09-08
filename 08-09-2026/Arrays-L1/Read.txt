@@ -1,4 +1,4 @@
 Longest Sub Array with given sum : 
 
 1st approach : generate all subarrays and find the longest length of the subarray whose 
-sum is k
+sum is k 
